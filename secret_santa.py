@@ -2,7 +2,7 @@
 
 ## Input a list of names below with the people who will be playing Secret Santa
 ## You can include each person's address after their name, separated by a space, `@`, and a space.
-## for example ["Batman @ The Batcave", "Pinguin @ Iceberg Lounge", "Robin @ The Circus"]
+## for example ["Batman @ The Batcave", "The Penguin @ The Iceberg Lounge", "Robin @ The Circus", "Mr. Freeze @ Gotham Mercy Hospital"]
 ## the addresses are handy to have in case you are copy/pasting the output to emails or Slack messages
 ## It prints out a table at the end in case that's useful!
 
@@ -17,7 +17,7 @@ import pandas as pd
 ## players = ["Batman", "The Penguin", "Robin", "Mr. Freeze"]
 
 # with addresses
-players = ["Batman @ The Batcave", "The Penguin @ The Iceberg Lounge", "Robin @ The Circus", "Mr. Freeze @ The North Pole"]
+players = ["Batman @ The Batcave", "The Penguin @ The Iceberg Lounge", "Robin @ The Circus", "Mr. Freeze @ Gotham Mercy Hospital"]
 
 
 def play_secret_santa(players: list[str], address: bool=False) -> dict:
